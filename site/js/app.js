@@ -12,11 +12,13 @@ const translations = {
     homeTitle: "Tervetuloa Squash Ouluun",
     homeText: "Squash Oulu on aktiivinen squash-seura, joka tarjoaa harrastajille valmennusta, pelejä ja yhteisön kaikentasoisille pelaajille. Tutustu seuraan ja liity mukaan!",
     aboutTitle: "Meistä",
-    aboutText: "Squash Oulu on aktiivinen ja ystävällinen squash-seura, joka tarjoaa harrastajille valmennusta, pelejä ja yhteisön kaikentasoisille pelaajille.",
+    aboutText: "Squash Oulu on aktiivinen ja ystävällinen squash-seura, joka tarjoaa harrastajille valmennusta, pelejä ja yhteisön kaikentasoisille pelaajille. Jäsenemme ovat kaikenikäisiä ja -tasoisia squashin ystäviä, jotka kokoontuvat säännöllisen epäsäännöllisesti pelaamaan, harjoittelemaan ja pitämään hauskaa yhdessä.",
+    SportsHallsTitle: "Squash-hallit Oulussa",
+    sportsHallsText: "Oulussa squashia pelataan pääasiassa kahdella hallilla: Nallisportissa, joka tarjoaa modernit tilat ja useita kenttiä, sekä Liikuntakeskus Hukassa (vaatii jäsenyyden). Molemmat hallit tarjoavat erinomaiset puitteet squashin harrastamiseen ja kilpailuihin.",
     sportTitle: "Squash urheiluna",
     sportText: "Squash on vauhdikas ja sosiaalinen sisäpeli, joka kehittää kestävyyttä, refleksiä ja taktista ajattelua. Peli sopii sekä kilpaurheiluun että kuntoiluun.",
     rulesSummaryTitle: "Squashin säännöt lyhyesti",
-    rulesSummaryText: "Squashissa peli alkaa syötöllä syöttöruudusta. Pallo osuu etuseinään ja pelaajat palaavat sitä vuorotellen ennen kuin se pomppaa kaksi kertaa. Pisteitä lasketaan pariin asti tai vuoron mukaan, ja kentällä on lyöntiviivat, syöttöviiva sekä vinoviivat, jotka kertovat, milloin pallo on ulkona. Let annetaan, jos vastustajan liike estyy tai tilanne vaarottaa pelaajan paluun, ja stroke tarkoittaa suoraan pisteen menetystä. Syötön pitää lähteä syöttöruudusta oikealla tavalla ja osua etuseinään ennen kuin pallo osuu lattiaan.",
+    rulesSummaryText: "<ul><li>Squashissa peli alkaa syötöllä syöttöruudusta.<ul><li>Syöttölyönnissä pallon tulee osua etuseinään syöttöviivan yläpuolelle.</li></ul></li><li>Pelaajat palaavat sitä vuorotellen ennen kuin se pomppaa kaksi kertaa tai osuu viivojen ulkopuolelle.</li><li>Jokaisesta voitetusta pallosta saadaan yksi piste ja erää pelataan 11 pisteeseen asti.</li><li>Jos lyöntitilanne kentällä on vaarallinen (vastustaja on esimerkiksi pallon ja etuseinän välissä), tulee pelaajan jättää lyömättä ja pyytää \"let\".<ul><li>Jos pelillä on tuomari, tämä tekee päätöksen pallon uudelleen pelaamisesta, pisteestä lyömisvuorossa olevalle pelaajalle tai virheestä.</li><li>Jos pelillä ei ole tuomaria, pelaajat sopivat keskenään tilanteen. Squash on herrasmieslaji.</li></ul></li><li>Pallo ei koskaan saa osua lyönnistä lattiaan ennen osumaa etuseinään.</li></ul>",
     rulesLink: "Katso tarkemmat säännöt",
     rulesPageTitle: "Squashin säännöt",
     rulesIntro: "Squashia pelataan suljetulla kentällä siten, että pallo osuu joka vuorolla etuseinään. Vastustajan tulee palauttaa pallo ennen kuin se pomppaa kahdesti.",
@@ -39,7 +41,7 @@ const translations = {
     historyTitle: "Historia",
     historyText: "Seura perustettiin vuonna 2010 tavoitteenaan tuoda squash lähelle oululaisia ja tarjota sääntöjen mukaisia harjoitusmahdollisuuksia perheille ja yksilöille.",
     juniorsTitle: "Juniorit",
-    juniorsText: "Junioritoimintamme on avoin 8–18-vuotiaille. Tarjoamme harjoituksia, peliryhmiä ja junioriturnauksia yhdessä ohjaajien kanssa.",
+    juniorsText: "Junioritoimintamme on avoin 5-18-vuotiaille. Tarjoamme harjoituksia, peliryhmiä ja junioriturnauksia yhdessä ohjaajien kanssa.",
     galleryTitle: "Galleria",
     galleryCaption1: "Kenttävaloja",
     galleryCaption2: "Pelikaverit",
@@ -95,7 +97,7 @@ const translations = {
     historyTitle: "History",
     historyText: "The club was founded in 2010 with the goal of bringing squash closer to Oulu residents and providing organized training for families and individuals.",
     juniorsTitle: "Juniors",
-    juniorsText: "Our junior program welcomes 8–18 year olds. We offer training sessions, practice groups and junior tournaments led by experienced coaches.",
+    juniorsText: "Our junior program welcomes 5-18 year olds. We offer training sessions, practice groups and junior tournaments led by experienced coaches.",
     galleryTitle: "Gallery",
     galleryCaption1: "Court lights",
     galleryCaption2: "Playing partners",
@@ -156,10 +158,7 @@ const fragmentTemplates = {
         <p data-i18n="footerText">Seuraa meitä sosiaalisessa mediassa</p>
       </div>
       <div class="social-links">
-        <a href="https://www.facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 5 3.7 9.1 8.5 9.9v-7H8v-3h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12H17l-.5 3h-2.1v7C18.3 21.1 22 17 22 12z"/></svg>
-        </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+        <a href="https://www.instagram.com/oulun_squash_klubi/" target="_blank" rel="noreferrer" aria-label="Instagram">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C19.5 2 22 4.5 22 7.8v8.4c0 3.3-2.5 5.8-5.8 5.8H7.8C4.5 22 2 19.5 2 16.2V7.8C2 4.5 4.5 2 7.8 2zm8.4 2H7.8C6 4 4 6 4 7.8v8.4C4 17.9 6 20 7.8 20h8.4c1.8 0 3.8-2 3.8-3.8V7.8C20 6 18 4 16.2 4zM12 7.3a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4zm0 2.3a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8zm4.8-2.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg>
         </a>
       </div>
@@ -208,7 +207,12 @@ function setLanguage(lang) {
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
     if (localized[key]) {
-      element.textContent = localized[key];
+      const value = localized[key];
+      if (/<[^>]+>/.test(value)) {
+        element.innerHTML = value;
+      } else {
+        element.textContent = value;
+      }
     }
   });
 
