@@ -115,12 +115,16 @@
         const time = document.createElement("time");
         time.setAttribute("datetime", ev.date || "");
         time.textContent = formatDateLocal(ev.__date);
+        const venue = document.createElement("p");
+        venue.className = "event-venue";
+        venue.textContent = ev.event_venue || "";
         const desc = document.createElement("p");
         const description = lang === "en" && ev.description_en ? ev.description_en : ev.description;
         if (description) {
           desc.appendChild(linkifyText(description));
         }
         article.appendChild(h4);
+        article.appendChild(venue);
         article.appendChild(time);
         article.appendChild(desc);
         fragment.appendChild(article);

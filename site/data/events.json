@@ -2,6 +2,7 @@
   {
     "title": "Keskiviikon peli-ilta",
     "title_en": "Wednesday Game Night",
+    "event-venue": "Nallisport",
     "date": "2026-05-20",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
     "description_en": "Open game night on Wednesday. No membership required. Sign up at: https://oulunsquashklubi.nimenhuuto.com/events"
@@ -9,13 +10,15 @@
   {
     "title": "Keskiviikon peli-ilta",
     "title_en": "Wednesday Game Night",
+    "event_venue": "Nallisport",
     "date": "2026-05-27",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
     "description_en": "Open game night on Wednesday. No membership required. Sign up at: https://oulunsquashklubi.nimenhuuto.com/events"
   },
   {
     "title": "Mestaruuskisat (Template)",
-    "title_en": "Club Championships (Template",
+    "title_en": "Club Championships (Template)",
+    "event_venue": "Nallisport",
     "date": "2026-08-20",
     "description": "Kauden päättäjäiset mestaruuskisat. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
     "description_en": "End of season championship tournament. Sign up at: https://oulunsquashklubi.nimenhuuto.com/events"
@@ -23,6 +26,7 @@
   {
     "title": "Juniorireenit (Template)",
     "title_en": "Junior training",
+    "event_venue": "Nallisport",
     "date": "2026-09-21",
     "description": "Avoimet juniorireenit kaikille jäsenille.",
     "description_en": "Open junior training sessions for all members."
