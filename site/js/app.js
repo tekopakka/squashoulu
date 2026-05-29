@@ -126,11 +126,11 @@ const translations = {
 let currentLanguage = localStorage.getItem("squashoulu-lang") || "fi";
 
 const sponsors = [
-  { href: "https://www.aleniuksenpuutarha.fi/", src: "assets/alenius-1.png", alt: "Aleniuksen Puutarha" },
-  { href: "https://digizer.fi/", src: "assets/digizer.png", alt: "Digizer" },
-  { href: "https://www.hukka.net/", src: "assets/hukka.jpg", alt: "Hukka" },
-  { href: "https://nallisport.com/", src: "assets/nallisport.jpg", alt: "Nallisport" },
-  { href: "https://www.snower.fi/", src: "assets/snower.jpg", alt: "Snower" },
+  { href: "https://www.aleniuksenpuutarha.fi/", src: "../assets/alenius-1.png", alt: "Aleniuksen Puutarha" },
+  { href: "https://digizer.fi/", src: "../assets/digizer.png", alt: "Digizer" },
+  { href: "https://www.hukka.net/", src: "../assets/hukka.jpg", alt: "Hukka" },
+  { href: "https://nallisport.com/", src: "../assets/nallisport.jpg", alt: "Nallisport" },
+  { href: "https://www.snower.fi/", src: "../assets/snower.jpg", alt: "Snower" },
 ];
 
 function renderSponsors() {
@@ -152,7 +152,7 @@ const fragmentTemplates = {
   siteHeader: `
     <header class="topbar">
       <div class="brand">
-        <span class="logo"><img src="./assets/osk_logo.png" alt="Squash Oulu logo"></span>
+        <span class="logo"><img src="../assets/osk_logo.png" alt="Squash Oulu logo"></span>
         <div>
           <p class="brand-title" data-i18n="clubName">Squash Oulu</p>
           <p class="brand-subtitle" data-i18n="tagline">Oulun oma squash-seura</p>
