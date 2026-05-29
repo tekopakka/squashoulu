@@ -8,6 +8,7 @@ const translations = {
     navHistory: "Historia",
     navJuniors: "Juniorit",
     navGallery: "Galleria",
+    navSponsors: "Sponsorit",
     navContacts: "Yhteystiedot",
     homeTitle: "Tervetuloa Squash Ouluun",
     homeText: "Squash Oulu on aktiivinen squash-seura, joka tarjoaa harrastajille valmennusta, pelejä ja yhteisön kaikentasoisille pelaajille. Tutustu seuraan ja liity mukaan!",
@@ -66,13 +67,20 @@ const translations = {
     navHistory: "History",
     navJuniors: "Juniors",
     navGallery: "Gallery",
+    navSponsors: "Sponsors",
     navContacts: "Contacts",
     homeTitle: "Welcome to Squash Oulu",
     homeText: "Squash Oulu is an active squash club offering coaching, games, and a community for players of all levels. Explore the club and join us!",
     aboutTitle: "About us",
-    aboutText: "Squash Oulu is an active and friendly squash club offering coaching, social games, and a welcoming community for players of all levels.",
+    aboutText: "Squash Oulu is an active and friendly squash club offering coaching, social games, and a welcoming community for players of all levels. Members of all ages and abilities gather regularly to play, train, and enjoy squash together.",
+    SportsHallsTitle: "Squash courts in Oulu",
+    sportsHallsText: "In Oulu, squash is mainly played at two venues: Nallisport offers modern facilities and several courts, while Liikuntakeskus Hukka requires membership. Both halls provide excellent conditions for training and competition.",
+    ClubActivitiesTitle: "Nallisport",
+    clubActivitiesText: "Visit the club website",
     sportTitle: "Squash as a sport",
     sportText: "Squash is a fast and social indoor sport that builds endurance, reflexes and tactical thinking. It is a perfect fit for competition and fitness alike.",
+    sponsorsTitle: "Sponsors",
+    sponsorsText: "We thank our partners for supporting the club and helping promote squash in Oulu.",
     rulesSummaryTitle: "Squash rules in brief",
     rulesSummaryText: "Squash starts with a serve from the service box. The ball must hit the front wall first and players alternate returns before it bounces twice. Points are scored to 11 or by rally scoring, and the court lines indicate in/out boundaries, service zones, and the tin. A let is called if a player is blocked or endangered, while a stroke gives the point to the opponent. The serve must be taken correctly from the service box and land in the proper half-court.",
     rulesLink: "See full rules",
@@ -117,6 +125,29 @@ const translations = {
 
 let currentLanguage = localStorage.getItem("squashoulu-lang") || "fi";
 
+const sponsors = [
+  { href: "https://www.aleniuksenpuutarha.fi/", src: "assets/alenius-1.png", alt: "Aleniuksen Puutarha" },
+  { href: "https://digizer.fi/", src: "assets/digizer.png", alt: "Digizer" },
+  { href: "https://www.hukka.net/", src: "assets/hukka.jpg", alt: "Hukka" },
+  { href: "https://nallisport.com/", src: "assets/nallisport.jpg", alt: "Nallisport" },
+  { href: "https://www.snower.fi/", src: "assets/snower.jpg", alt: "Snower" },
+];
+
+function renderSponsors() {
+  const sponsorList = document.getElementById("sponsorList");
+  if (!sponsorList) return;
+
+  sponsorList.innerHTML = sponsors
+    .map(
+      (sponsor) => `
+        <a class="sponsor-card" href="${sponsor.href}" target="_blank" rel="noreferrer">
+          <img src="${sponsor.src}" alt="${sponsor.alt}" />
+        </a>
+      `
+    )
+    .join("");
+}
+
 const fragmentTemplates = {
   siteHeader: `
     <header class="topbar">
@@ -138,6 +169,7 @@ const fragmentTemplates = {
       <a href="sport.html" data-i18n="navSport">Squash urheiluna</a>
       <a href="juniors.html" data-i18n="navJuniors">Juniorit</a>
       <a href="gallery.html" data-i18n="navGallery">Galleria</a>
+      <a href="sponsors.html" data-i18n="navSponsors">Sponsorit</a>
       <a href="contacts.html" data-i18n="navContacts">Yhteystiedot</a>
     </nav>
   `,
@@ -247,6 +279,7 @@ async function initPage() {
   ]);
   setActiveNavigation();
   initLanguageSwitch();
+  renderSponsors();
   // Dynamically load events loader script and initialize events
   const script = document.createElement("script");
   script.src = "js/events.js";
