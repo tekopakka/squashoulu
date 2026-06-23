@@ -31,4 +31,12 @@
     "description": "Avoimet juniorireenit kaikille jäsenille.",
     "description_en": "Open junior training sessions for all members."
   }
+  {
+    "title": "Nallisport PSA Satellite",
+    "title_en": "Nallisport PSA Satellite",
+    "event_venue": "Nallisport",
+    "date": "2026-11-14",
+    "description": "PSA turnaus Oulussa 14.-15.11.2026.",
+    "description_en": "PSA tournament in Oulu on 14.-15.11.2026."
+  }
 ]
