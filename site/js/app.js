@@ -326,7 +326,6 @@ const fragmentTemplates = {
       <a href="about.html" data-i18n="navAbout">Meistä</a>
       <a href="sport.html" data-i18n="navSport">Squash urheiluna</a>
       <a href="juniors.html" data-i18n="navJuniors">Juniorit</a>
-      <a href="gallery.html" data-i18n="navGallery">Galleria</a>
       <a href="sponsors.html" data-i18n="navSponsors">Sponsorit</a>
       <a href="contacts.html" data-i18n="navContacts">Yhteystiedot</a>
     </nav>
