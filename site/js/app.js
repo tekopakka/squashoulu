@@ -11,7 +11,7 @@ const translations = {
     navSponsors: "Sponsorit",
     navContacts: "Yhteystiedot",
     homeTitle: "Tervetuloa Squash Ouluun",
-    homeText: "Squash Oulu on aktiivinen squash-seura, joka tarjoaa harrastajille valmennusta, pelejä ja yhteisön kaikentasoisille pelaajille. Tutustu seuraan ja liity mukaan!",
+    homeText: "<strong>Oulun Squash Klubi (OSK)</strong> on vuonna 1976 perustettu oululainen squashseura. Seura tarjoaa squash-toimintaa kaikenikäisille ja -tasoisille pelaajille - aloittelijoista aktiiviharrastajiin ja kilpapelaajiin. Tervetuloa mukaan!",
     aboutTitle: "Meistä",
     aboutClubTitle: "Oulun Squash Klubi",
     aboutClubIntro: "Oulun Squash Klubi (OSK) on vuonna 1976 perustettu oululainen squashseura. Seura tarjoaa squash-toimintaa kaikenikäisille ja -tasoisille pelaajille - aloittelijoista aktiiviharrastajiin ja kilpapelaajiin.",
@@ -127,8 +127,9 @@ const translations = {
     galleryCaption2: "Pelikaverit",
     galleryCaption3: "Junioriharjoitus",
     contactsTitle: "Yhteystiedot",
-    contactCoach: "Päävalmentaja",
-    contactClub: "Seuran sihteeri",
+    contactCoach: "OSK",
+    contactClub: "Nallisport",
+    contactAssociation: "Suomen Squash Liitto",
     contactPhone: "Puhelin",
     eventsTitle: "Tulevat tapahtumat",
     event1Title: "Kesän harjoitusleiri",
@@ -149,7 +150,7 @@ const translations = {
     navSponsors: "Sponsors",
     navContacts: "Contacts",
     homeTitle: "Welcome to Squash Oulu",
-    homeText: "Squash Oulu is an active squash club offering coaching, games, and a community for players of all levels. Explore the club and join us!",
+    homeText: "<strong>Oulu Squash Club (OSK)</strong> is a squash club from Oulu, founded in 1976. The club offers squash activities for players of all ages and levels - from beginners to active hobby players and competitive athletes. Welcome!",
     aboutTitle: "About us",
     aboutClubTitle: "Oulu Squash Club",
     aboutClubIntro: "Oulu Squash Club (OSK) is a squash club based in Oulu, founded in 1976. The club offers squash activities for players of all ages and levels - from beginners to active hobby players and competitive athletes.",
@@ -269,8 +270,9 @@ const translations = {
     galleryCaption2: "Playing partners",
     galleryCaption3: "Junior training",
     contactsTitle: "Contacts",
-    contactCoach: "Head coach",
-    contactClub: "Club secretary",
+    contactCoach: "OSK",
+    contactClub: "Nallisport",
+    contactAssociation: "Finnish Squash Association",
     contactPhone: "Phone",
     eventsTitle: "Upcoming events",
     event1Title: "Summer training camp",
@@ -317,11 +319,16 @@ const fragmentTemplates = {
         </div>
       </div>
       <div class="top-actions">
+        <button class="menu-toggle" id="mobileNavToggle" aria-label="Toggle navigation" aria-controls="primaryNav" aria-expanded="false">
+          <span class="menu-toggle-line"></span>
+          <span class="menu-toggle-line"></span>
+          <span class="menu-toggle-line"></span>
+        </button>
         <button class="lang-switch" id="langSwitch" aria-label="Switch language">EN</button>
       </div>
     </header>
 
-    <nav class="navigation" aria-label="Primary">
+    <nav class="navigation" id="primaryNav" aria-label="Primary">
       <a href="index.html" data-i18n="navHome">Etusivu</a>
       <a href="about.html" data-i18n="navAbout">Meistä</a>
       <a href="sport.html" data-i18n="navSport">Squash urheiluna</a>
@@ -347,9 +354,18 @@ const fragmentTemplates = {
         <p data-i18n="footerText">Seuraa meitä sosiaalisessa mediassa</p>
       </div>
       <div class="social-links">
-        <a href="https://www.instagram.com/oulun_squash_klubi/" target="_blank" rel="noreferrer" aria-label="Instagram">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C19.5 2 22 4.5 22 7.8v8.4c0 3.3-2.5 5.8-5.8 5.8H7.8C4.5 22 2 19.5 2 16.2V7.8C2 4.5 4.5 2 7.8 2zm8.4 2H7.8C6 4 4 6 4 7.8v8.4C4 17.9 6 20 7.8 20h8.4c1.8 0 3.8-2 3.8-3.8V7.8C20 6 18 4 16.2 4zM12 7.3a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4zm0 2.3a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8zm4.8-2.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg>
-        </a>
+        <div class="social-group">
+          <p class="social-group-title">OSK</p>
+          <a href="https://www.instagram.com/oulun_squash_klubi/" target="_blank" rel="noreferrer" aria-label="OSK Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C19.5 2 22 4.5 22 7.8v8.4c0 3.3-2.5 5.8-5.8 5.8H7.8C4.5 22 2 19.5 2 16.2V7.8C2 4.5 4.5 2 7.8 2zm8.4 2H7.8C6 4 4 6 4 7.8v8.4C4 17.9 6 20 7.8 20h8.4c1.8 0 3.8-2 3.8-3.8V7.8C20 6 18 4 16.2 4zM12 7.3a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4zm0 2.3a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8zm4.8-2.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg>
+          </a>
+        </div>
+        <div class="social-group">
+          <p class="social-group-title">OSKnaiset</p>
+          <a href="https://www.instagram.com/osknaiset/" target="_blank" rel="noreferrer" aria-label="OSKnaiset Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.8 2h8.4C19.5 2 22 4.5 22 7.8v8.4c0 3.3-2.5 5.8-5.8 5.8H7.8C4.5 22 2 19.5 2 16.2V7.8C2 4.5 4.5 2 7.8 2zm8.4 2H7.8C6 4 4 6 4 7.8v8.4C4 17.9 6 20 7.8 20h8.4c1.8 0 3.8-2 3.8-3.8V7.8C20 6 18 4 16.2 4zM12 7.3a4.7 4.7 0 1 1 0 9.4 4.7 4.7 0 0 1 0-9.4zm0 2.3a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8zm4.8-2.9a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2z"/></svg>
+          </a>
+        </div>
       </div>
     </footer>
   `,
@@ -362,7 +378,7 @@ async function loadFragment(id, url) {
   const shouldFetch = location.protocol !== "file:";
   if (shouldFetch) {
     try {
-      const response = await fetch(url);
+      const response = await fetch(url, { cache: "no-store" });
       if (response.ok) {
         placeholder.innerHTML = await response.text();
         return;
@@ -428,6 +444,36 @@ function initLanguageSwitch() {
   setLanguage(currentLanguage);
 }
 
+function initMobileNavigation() {
+  const nav = document.getElementById("primaryNav");
+  const toggleBtn = document.getElementById("mobileNavToggle");
+  if (!nav || !toggleBtn) return;
+
+  const closeMenu = () => {
+    nav.classList.remove("is-open");
+    toggleBtn.setAttribute("aria-expanded", "false");
+  };
+
+  toggleBtn.addEventListener("click", () => {
+    const isOpen = nav.classList.toggle("is-open");
+    toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      if (window.innerWidth <= 720) {
+        closeMenu();
+      }
+    });
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 720) {
+      closeMenu();
+    }
+  });
+}
+
 async function initPage() {
   await Promise.all([
     loadFragment("siteHeader", "includes/header.html"),
@@ -435,11 +481,12 @@ async function initPage() {
     loadFragment("siteFooter", "includes/footer.html"),
   ]);
   setActiveNavigation();
+  initMobileNavigation();
   initLanguageSwitch();
   renderSponsors();
   // Dynamically load events loader script and initialize events
   const script = document.createElement("script");
-  script.src = "js/events.js";
+  script.src = `js/events.js?v=${Date.now()}`;
   script.defer = true;
   script.onload = () => {
     if (window.initEvents) {
