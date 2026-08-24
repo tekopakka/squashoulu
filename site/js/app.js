@@ -175,7 +175,7 @@ const translations = {
     aboutJoinEquipment: "A racket and ball can be borrowed or rented from Nallisport if needed.",
     aboutJoinContact: "You can arrange joining a training session or game night with the club in advance.",
     aboutMembershipTitle: "Membership",
-    aboutMembershipIntro: "You can join OSK through the SquashOulu website.",
+    aboutMembershipIntro: "You can join OSK by filling in your member information with the payment form. You can pay the membership fee at <a href=\"https://holvi.com/shop/oulunsquashklubi/\" target=\"_blank\" rel=\"noreferrer\">https://holvi.com/shop/oulunsquashklubi/</a>",
     aboutMembershipBenefitsTitle: "Membership includes, among other things:",
     aboutMembershipBenefits: "<li>more affordable court bookings</li><li>the opportunity to take part in the club's training sessions and events</li><li>the opportunity to participate in the club's competitions</li><li>the opportunity to be part of an active squash community.</li>",
     aboutFeesTitle: "Membership fees",
