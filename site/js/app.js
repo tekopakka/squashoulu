@@ -36,7 +36,7 @@ const translations = {
     aboutJoinEquipment: "Mailan ja pallon voi tarvittaessa lainata tai vuokrata Nallisportista.",
     aboutJoinContact: "Harjoituksiin tai peli-iltaan mukaan tulemisesta voi sopia seuran kanssa etukäteen.",
     aboutMembershipTitle: "Jäsenyys",
-    aboutMembershipIntro: "OSK jäseneksi voi liittyä SquashOulun verkkosivujen kautta.",
+    aboutMembershipIntro: "OSK jäseneksi voi liittyä täyttämällä jäsenen tiedot maksulomakkeen yhteydessä. Jäsenmaksun voi suorittaa osoitteessa https://holvi.com/shop/oulunsquashklubi/",
     aboutMembershipBenefitsTitle: "Jäsenyys tarjoaa muun muassa:",
     aboutMembershipBenefits: "<li>edullisempia pelivuoroja</li><li>mahdollisuuden osallistua seuran harjoituksiin ja tapahtumiin</li><li>mahdollisuuden osallistua seuran kilpailuihin</li><li>mahdollisuuden olla mukana aktiivisessa squash-yhteisössä.</li>",
     aboutFeesTitle: "Jäsenmaksut",
