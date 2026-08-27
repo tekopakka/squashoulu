@@ -13,7 +13,7 @@ const translations = {
     homeTitle: "Tervetuloa Squash Ouluun",
     homeText: "<strong>Oulun Squash Klubi (OSK)</strong> on vuonna 1976 perustettu oululainen squashseura. Seura tarjoaa squash-toimintaa kaikenikäisille ja -tasoisille pelaajille - aloittelijoista aktiiviharrastajiin ja kilpapelaajiin. Tervetuloa mukaan!",
     newsCaptionKepelit: "Legendaariset keskiviikon peli-illat jatkuvat 2.9.2026!",
-    newsCaptionPerhekossi: "Perhekössi-tapahtuma järjestetään lauantaina 5.9.2026, tervetuloa mukaan!",
+    newsCaptionPerhekossi: "Perhekössi-tapahtuma järjestetään lauantaina 10.10.2026, tervetuloa mukaan!",
     aboutTitle: "Meistä",
     aboutClubTitle: "Oulun Squash Klubi",
     aboutClubIntro: "Oulun Squash Klubi (OSK) on vuonna 1976 perustettu oululainen squashseura. Seura tarjoaa squash-toimintaa kaikenikäisille ja -tasoisille pelaajille - aloittelijoista aktiiviharrastajiin ja kilpapelaajiin.",
