@@ -154,7 +154,7 @@ const translations = {
     homeTitle: "Welcome to Squash Oulu",
     homeText: "<strong>Oulu Squash Club (OSK)</strong> is a squash club from Oulu, founded in 1976. The club offers squash activities for players of all ages and levels - from beginners to active hobby players and competitive athletes. Welcome!",
     newsCaptionKepelit: "The legendary Wednesday game nights continue on September 2, 2026!",
-    newsCaptionPerhekossi: "The Family Squash event will be held on Saturday, September 5, 2026. Welcome!",
+    newsCaptionPerhekossi: "The Family Squash event will be held on Saturday, October 10, 2026. Welcome!",
     aboutTitle: "About us",
     aboutClubTitle: "Oulu Squash Club",
     aboutClubIntro: "Oulu Squash Club (OSK) is a squash club based in Oulu, founded in 1976. The club offers squash activities for players of all ages and levels - from beginners to active hobby players and competitive athletes.",
