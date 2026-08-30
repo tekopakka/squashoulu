@@ -12,7 +12,6 @@ PAGES = [
     ("about.html", "Meistä"),
     ("sport.html", "Squash urheiluna"),
     ("juniors.html", "Juniorit"),
-    ("gallery.html", "Galleria"),
     ("contacts.html", "Yhteystiedot"),
 ]
 

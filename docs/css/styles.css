@@ -326,19 +326,41 @@ img {
   padding: 1rem;
   border: 1px solid var(--border);
   border-radius: 18px;
-  background: #fff;
+  background: #98ef9f;
+  color: #000000;
+}
+
+.event-card--game-night {
+  background: #fe9e4a;
+}
+
+.event-card--junior-training {
+  background: #5895af;
+}
+
+.event-card--junior-training--tuesday {
+  background: #6bafcc;
+}
+
+.event-card--junior-training--thursday {
+  background: #ace85e;
 }
 
 .event-card h4 {
   margin: 0 0 0.35rem;
   font-size: 1rem;
+  color: inherit;
 }
 
 .event-card time,
 .event-card p {
   margin: 0;
-  color: var(--muted);
+  color: inherit;
   font-size: 0.95rem;
+}
+
+.event-card a {
+  color: inherit;
 }
 
 .event-card button {
@@ -372,7 +394,7 @@ img {
   padding: 0.9rem 1rem;
   font: inherit;
   color: var(--text);
-  background: #f8fafc;
+  background: #000000;
 }
 
 .primary-button {

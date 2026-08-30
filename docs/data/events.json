@@ -5,23 +5,26 @@
     "event-venue": "Nallisport",
     "date": "2026-05-27",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up at: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up at: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-08-25",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-09-01",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -29,15 +32,26 @@
     "event-venue": "Nallisport",
     "date": "2026-09-02",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-09-03",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-09-08",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -45,15 +59,26 @@
     "event-venue": "Nallisport",
     "date": "2026-09-09",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-09-10",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-09-15",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -61,15 +86,26 @@
     "event-venue": "Nallisport",
     "date": "2026-09-16",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-09-17",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-09-22",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -77,15 +113,26 @@
     "event-venue": "Nallisport",
     "date": "2026-09-23",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-09-24",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-09-29",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -93,15 +140,26 @@
     "event-venue": "Nallisport",
     "date": "2026-09-30",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-10-01",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-10-06",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -109,7 +167,17 @@
     "event-venue": "Nallisport",
     "date": "2026-10-07",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
+  },
+  {
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-10-08",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
   },
   {
     "title": "Perhekössi",
@@ -117,15 +185,17 @@
     "event-venue": "Nallisport",
     "date": "2026-10-10",
     "description": "Ilmainen avoimien ovien päivä koko perheelle tulla testaamaan squashin pelaamista. Mukaan mahtuu 20 ensimmäistä. Mukaan tarvitsee vain omat sisäpelikengät. Ilmoittautumiset: toimintaterapia.annika@gmail.com",
-    "description_en": "A free open house day for the whole family to come and try squash. Space is limited to the first 20 participants. You only need your own indoor court shoes. Sign-ups: toimintaterapia.annika@gmail.com"
+    "description_en": "A free open house day for the whole family to come and try squash. Space is limited to the first 20 participants. You only need your own indoor court shoes. Sign-ups: toimintaterapia.annika@gmail.com",
+    "color": "#98EF9F"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-10-13",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -133,15 +203,26 @@
     "event-venue": "Nallisport",
     "date": "2026-10-14",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-10-15",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-10-27",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -149,15 +230,26 @@
     "event-venue": "Nallisport",
     "date": "2026-10-28",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-10-29",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-11-03",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -165,15 +257,26 @@
     "event-venue": "Nallisport",
     "date": "2026-11-04",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-11-05",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-11-10",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -181,7 +284,17 @@
     "event-venue": "Nallisport",
     "date": "2026-11-11",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
+  },
+  {
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-11-12",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
   },
   {
     "title": "Nallisport PSA Satellite",
@@ -189,15 +302,17 @@
     "event-venue": "Nallisport",
     "date": "2026-11-14",
     "description": "PSA turnaus Oulussa 14.-15.11.2026.",
-    "description_en": "PSA tournament in Oulu on 14.-15.11.2026."
+    "description_en": "PSA tournament in Oulu on 14.-15.11.2026.",
+    "color": "#98EF9F"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-11-17",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -205,15 +320,26 @@
     "event-venue": "Nallisport",
     "date": "2026-11-18",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-11-19",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-11-24",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -221,15 +347,26 @@
     "event-venue": "Nallisport",
     "date": "2026-11-25",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-11-26",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-12-01",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -237,15 +374,26 @@
     "event-venue": "Nallisport",
     "date": "2026-12-02",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-12-03",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-12-08",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -253,15 +401,26 @@
     "event-venue": "Nallisport",
     "date": "2026-12-09",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-12-10",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2026-12-15",
-    "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Harri. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Harri. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -269,15 +428,26 @@
     "event-venue": "Nallisport",
     "date": "2026-12-16",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "To: Juniorireenit klo 18-19",
+    "title_en": "Thu: Junior training 18-19",
+    "event-venue": "Nallisport",
+    "date": "2026-12-17",
+    "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
+    "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#ace85e"
+  },
+  {
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-01-12",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -285,15 +455,17 @@
     "event-venue": "Nallisport",
     "date": "2027-01-13",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-01-19",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -301,15 +473,17 @@
     "event-venue": "Nallisport",
     "date": "2027-01-20",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-01-26",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -317,15 +491,17 @@
     "event-venue": "Nallisport",
     "date": "2027-01-27",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-02-02",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -333,15 +509,17 @@
     "event-venue": "Nallisport",
     "date": "2027-02-03",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-02-09",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -349,15 +527,17 @@
     "event-venue": "Nallisport",
     "date": "2027-02-10",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-02-16",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -365,15 +545,17 @@
     "event-venue": "Nallisport",
     "date": "2027-02-17",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-02-23",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -381,15 +563,17 @@
     "event-venue": "Nallisport",
     "date": "2027-02-24",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-03-02",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -397,15 +581,17 @@
     "event-venue": "Nallisport",
     "date": "2027-03-03",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-03-16",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -413,15 +599,17 @@
     "event-venue": "Nallisport",
     "date": "2027-03-17",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-03-23",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -429,15 +617,17 @@
     "event-venue": "Nallisport",
     "date": "2027-03-24",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-03-30",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -445,15 +635,17 @@
     "event-venue": "Nallisport",
     "date": "2027-03-31",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-04-06",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -461,15 +653,17 @@
     "event-venue": "Nallisport",
     "date": "2027-04-07",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-04-13",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -477,15 +671,17 @@
     "event-venue": "Nallisport",
     "date": "2027-04-14",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-04-20",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -493,15 +689,17 @@
     "event-venue": "Nallisport",
     "date": "2027-04-21",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-04-27",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -509,15 +707,17 @@
     "event-venue": "Nallisport",
     "date": "2027-04-28",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-05-04",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -525,15 +725,17 @@
     "event-venue": "Nallisport",
     "date": "2027-05-05",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-05-11",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -541,15 +743,17 @@
     "event-venue": "Nallisport",
     "date": "2027-05-12",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-05-18",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -557,15 +761,17 @@
     "event-venue": "Nallisport",
     "date": "2027-05-19",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   },
   {
-    "title": "Juniorireenit klo 18-19",
-    "title_en": "Junior training 18-19",
+    "title": "Ti: Juniorireenit klo 18-19",
+    "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
     "date": "2027-05-25",
     "description": "Avoimet juniorireenit kaikille jäsenille. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open junior training sessions for all members. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#6bafcc"
   },
   {
     "title": "Keskiviikon peli-ilta",
@@ -573,6 +779,7 @@
     "event-venue": "Nallisport",
     "date": "2027-05-26",
     "description": "Keskiviikon avoin peli-ilta. Ei vaadi jäsenyyttä. Ilmottautuminen nimenhuudossa: https://oulunsquashklubi.nimenhuuto.com/events",
-    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events"
+    "description_en": "Open game night on Wednesday. No membership required. Sign up in: https://oulunsquashklubi.nimenhuuto.com/events",
+    "color": "#fe9e4a"
   }
 ]

@@ -49,6 +49,17 @@
     return fragment;
   }
 
+  function getEventTone(event) {
+    const title = `${event.title || ""} ${event.title_en || ""}`.toLowerCase();
+    if (title.includes("peli-ilta") || title.includes("game night")) return "game-night";
+    if (title.includes("juniori") || title.includes("junior")) {
+      if (event.__date && event.__date.getDay() === 2) return "junior-training--tuesday";
+      if (event.__date && event.__date.getDay() === 4) return "junior-training--thursday";
+      return "junior-training";
+    }
+    return "other";
+  }
+
   async function initEvents() {
     const listEl = document.getElementById("eventList");
     const footerEl = document.getElementById("eventsFooter");
@@ -108,7 +119,8 @@
       for (let i = start; i < end && i < processed.length; i++) {
         const ev = processed[i];
         const article = document.createElement("article");
-        article.className = "event-card";
+        article.className = `event-card event-card--${getEventTone(ev)}`;
+        if (ev.color) article.style.backgroundColor = ev.color;
         const h4 = document.createElement("h4");
         const title = lang === "en" && ev.title_en ? ev.title_en : ev.title;
         h4.textContent = title || msg.untitled;
