@@ -120,7 +120,7 @@
         const ev = processed[i];
         const article = document.createElement("article");
         article.className = `event-card event-card--${getEventTone(ev)}`;
-        if (ev.color) article.style.backgroundColor = ev.color;
+        if (ev.color) article.style.setProperty("--event-color", ev.color);
         const h4 = document.createElement("h4");
         const title = lang === "en" && ev.title_en ? ev.title_en : ev.title;
         h4.textContent = title || msg.untitled;

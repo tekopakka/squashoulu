@@ -323,27 +323,13 @@ img {
 }
 
 .event-card {
+  --event-color: var(--border);
   padding: 1rem;
   border: 1px solid var(--border);
+  border-left: 1rem solid var(--event-color);
   border-radius: 18px;
-  background: #98ef9f;
+  background: #f2f2f2;
   color: #000000;
-}
-
-.event-card--game-night {
-  background: #f4ae71;
-}
-
-.event-card--junior-training {
-  background: #5895af;
-}
-
-.event-card--junior-training--tuesday {
-  background: #8fddff;
-}
-
-.event-card--junior-training--thursday {
-  background: #cef897;
 }
 
 .event-card h4 {
