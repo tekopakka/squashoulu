@@ -189,6 +189,15 @@
     "color": "#98EF9F"
   },
   {
+    "title": "Hukka Taviscup",
+    "title_en": "Hukka Taviscup",
+    "event-venue": "Hukka",
+    "date": "2026-10-12",
+    "description": "Taviscup kilpailu Hukkassa. Ilmoittautuminen TBD. Osallistumismaksu TBD.",
+    "description_en": "Taviscup competition at Hukka. Registration TBD. Participation fee TBD.",
+    "color": "#98EF9F"
+  },
+  {
     "title": "Ti: Juniorireenit klo 18-19",
     "title_en": "Tue: Junior training 18-19",
     "event-venue": "Nallisport",
@@ -297,8 +306,8 @@
     "color": "#cef897"
   },
   {
-    "title": "Nallisport PSA Satellite",
-    "title_en": "Nallisport PSA Satellite",
+    "title": "Nallisport Open - PSA Satellite",
+    "title_en": "Nallisport Open - PSA Satellite",
     "event-venue": "Nallisport",
     "date": "2026-11-14",
     "description": "PSA turnaus Oulussa 14.-15.11.2026.",
@@ -412,6 +421,15 @@
     "description": "Avoimet juniorireenit kaikille jäsenille. Vetäjänä Risto. Ilmoittautuminen https://oulunsquashklubi.nimenhuuto.com/events",
     "description_en": "Open junior training sessions for all members. Instructor: Risto. Sign up in https://oulunsquashklubi.nimenhuuto.com/events",
     "color": "#cef897"
+  },
+  {
+    "title": "Kinkkukisat",
+    "title_en": "Kinkkukisat",
+    "event-venue": "Nallisport",
+    "date": "2026-12-12",
+    "description": "Legendaariset kinkkukisat. Ilmoittautuminen TBD.",
+    "description_en": "The legendary ham contest. Registration TBD.",
+    "color": "#98EF9F"
   },
   {
     "title": "Ti: Juniorireenit klo 18-19",
