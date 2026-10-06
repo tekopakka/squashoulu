@@ -158,6 +158,7 @@ img {
   width: 100%;
   margin: 0 auto;
   display: grid;
+  align-items: start;
   grid-template-columns: 1fr;
   gap: 1.5rem;
   padding: 1.5rem 1.5rem 2rem;
@@ -168,6 +169,7 @@ img {
 
 .main-column {
   display: grid;
+  align-content: start;
   gap: 1.5rem;
 }
 
@@ -326,7 +328,7 @@ img {
   --event-color: var(--border);
   padding: 1rem;
   border: 1px solid var(--border);
-  border-left: 1rem solid var(--event-color);
+  border-left: 0.9rem solid var(--event-color);
   border-radius: 18px;
   background: #f2f2f2;
   color: #000000;
