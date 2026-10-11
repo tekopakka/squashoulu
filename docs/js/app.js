@@ -5,7 +5,7 @@ const translations = {
     navHome: "Etusivu",
     navAbout: "Meistä",
     navSport: "Squash urheiluna",
-    navBlog: "Blog",
+    navBlog: "Blogi",
     navJuniors: "Juniorit",
     navGallery: "Galleria",
     navSponsors: "Sponsorit",
@@ -340,7 +340,7 @@ const fragmentTemplates = {
       <a href="index.html" data-i18n="navHome">Etusivu</a>
       <a href="about.html" data-i18n="navAbout">Meistä</a>
       <a href="sport.html" data-i18n="navSport">Squash urheiluna</a>
-      <a href="blog.html" data-i18n="navBlog">Blog</a>
+      <a href="blog.html" data-i18n="navBlog">Blogi</a>
       <a href="juniors.html" data-i18n="navJuniors">Juniorit</a>
       <a href="sponsors.html" data-i18n="navSponsors">Sponsorit</a>
       <a href="contacts.html" data-i18n="navContacts">Yhteystiedot</a>
