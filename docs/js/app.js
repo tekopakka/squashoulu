@@ -5,7 +5,7 @@ const translations = {
     navHome: "Etusivu",
     navAbout: "Meistä",
     navSport: "Squash urheiluna",
-    navHistory: "Historia",
+    navBlog: "Blog",
     navJuniors: "Juniorit",
     navGallery: "Galleria",
     navSponsors: "Sponsorit",
@@ -73,7 +73,7 @@ const translations = {
     rulesSection5Title: "Syöttö",
     rulesRule10: "Syöttöä annetaan syöttöruudusta; pallo osuu ensin etuseinään ja ulottuu vastustajan kenttäalueelle.",
     rulesRule11: "Oikea syöttö antaa pelille reilun alun, ja huonosti suoritettu syöttö voi johtaa pisteen menetykseen.",
-    historyTitle: "Historia",
+    historyTitle: "Blogi",
     historyText: "Seura perustettiin vuonna 2010 tavoitteenaan tuoda squash lähelle oululaisia ja tarjota sääntöjen mukaisia harjoitusmahdollisuuksia perheille ja yksilöille.",
     juniorsTitle: "Juniorit",
     juniorsText: "Junioritoimintamme on avoin 5-18-vuotiaille. Tarjoamme harjoituksia, peliryhmiä ja junioriturnauksia yhdessä ohjaajien kanssa.",
@@ -134,6 +134,8 @@ const translations = {
     contactAssociation: "Suomen Squash Liitto",
     contactPhone: "Puhelin",
     eventsTitle: "Tulevat tapahtumat",
+    eventsMinimize: "Piilota tapahtumat",
+    eventsExpand: "Näytä tapahtumat",
     event1Title: "Kesän harjoitusleiri",
     event1Desc: "Avoin harjoitusleiri kaikille jäsenille.",
     event2Title: "Junioriturnaus",
@@ -146,7 +148,7 @@ const translations = {
     navHome: "Home",
     navAbout: "About us",
     navSport: "Squash as a sport",
-    navHistory: "History",
+    navBlog: "Blog",
     navJuniors: "Juniors",
     navGallery: "Gallery",
     navSponsors: "Sponsors",
@@ -279,6 +281,8 @@ const translations = {
     contactAssociation: "Finnish Squash Association",
     contactPhone: "Phone",
     eventsTitle: "Upcoming events",
+    eventsMinimize: "Hide events",
+    eventsExpand: "Show events",
     event1Title: "Summer training camp",
     event1Desc: "An open training camp for all members.",
     event2Title: "Junior tournament",
@@ -336,6 +340,7 @@ const fragmentTemplates = {
       <a href="index.html" data-i18n="navHome">Etusivu</a>
       <a href="about.html" data-i18n="navAbout">Meistä</a>
       <a href="sport.html" data-i18n="navSport">Squash urheiluna</a>
+      <a href="blog.html" data-i18n="navBlog">Blog</a>
       <a href="juniors.html" data-i18n="navJuniors">Juniorit</a>
       <a href="sponsors.html" data-i18n="navSponsors">Sponsorit</a>
       <a href="contacts.html" data-i18n="navContacts">Yhteystiedot</a>
@@ -345,11 +350,14 @@ const fragmentTemplates = {
     <div class="panel">
       <div class="panel-head">
         <h3 data-i18n="eventsTitle">Tulevat tapahtumat</h3>
+        <button type="button" class="panel-toggle" id="eventsToggle" aria-controls="eventsBody" aria-expanded="true"></button>
       </div>
-      <div class="event-list" id="eventList">
-        <!-- Events will be loaded dynamically from data/events.json -->
+      <div class="panel-body" id="eventsBody">
+        <div class="event-list" id="eventList">
+          <!-- Events will be loaded dynamically from data/events.json -->
+        </div>
+        <div class="panel-foot" id="eventsFooter"></div>
       </div>
-      <div class="panel-foot" id="eventsFooter"></div>
     </div>
   `,
   siteFooter: `
@@ -431,6 +439,46 @@ function setLanguage(lang) {
   }
 
   localStorage.setItem("squashoulu-lang", lang);
+  updateEventsToggle();
+}
+
+const EVENTS_COLLAPSED_KEY = "squashoulu-events-collapsed";
+
+function updateEventsToggle() {
+  const toggleBtn = document.getElementById("eventsToggle");
+  const panel = document.querySelector("#siteEvents .panel");
+  if (!toggleBtn || !panel) return;
+  const collapsed = panel.classList.contains("is-collapsed");
+  const contentGrid = panel.closest(".content-grid");
+  if (contentGrid) {
+    contentGrid.classList.toggle("events-collapsed", collapsed);
+  }
+  const label = translations[currentLanguage][collapsed ? "eventsExpand" : "eventsMinimize"];
+  toggleBtn.textContent = collapsed ? "+" : "−";
+  toggleBtn.setAttribute("aria-label", label);
+  toggleBtn.setAttribute("title", label);
+  toggleBtn.setAttribute("aria-expanded", collapsed ? "false" : "true");
+}
+
+function initEventsToggle() {
+  const toggleBtn = document.getElementById("eventsToggle");
+  const panel = document.querySelector("#siteEvents .panel");
+  if (!toggleBtn || !panel) return;
+
+  let collapsed = false;
+  try {
+    collapsed = localStorage.getItem(EVENTS_COLLAPSED_KEY) === "true";
+  } catch (err) {}
+  panel.classList.toggle("is-collapsed", collapsed);
+  updateEventsToggle();
+
+  toggleBtn.addEventListener("click", () => {
+    const isCollapsed = panel.classList.toggle("is-collapsed");
+    try {
+      localStorage.setItem(EVENTS_COLLAPSED_KEY, String(isCollapsed));
+    } catch (err) {}
+    updateEventsToggle();
+  });
 }
 
 function initLanguageSwitch() {
@@ -487,6 +535,7 @@ async function initPage() {
   setActiveNavigation();
   initMobileNavigation();
   initLanguageSwitch();
+  initEventsToggle();
   renderSponsors();
   // Dynamically load events loader script and initialize events
   const script = document.createElement("script");

@@ -319,6 +319,53 @@ img {
   margin: 0;
 }
 
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.panel-toggle {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: white;
+  color: var(--text);
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.panel-toggle:hover,
+.panel-toggle:focus-visible {
+  border-color: var(--primary);
+}
+
+.panel-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-height: 10000px;
+  overflow: hidden;
+  transition: max-height 0.3s ease, transform 0.25s ease, opacity 0.2s ease, visibility 0s;
+}
+
+.panel.is-collapsed .panel-body {
+  max-height: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(100%);
+  visibility: hidden;
+  transition: max-height 0.3s ease, transform 0.25s ease, opacity 0.2s ease, visibility 0s linear 0.25s;
+}
+
+.panel.is-collapsed {
+  gap: 0;
+}
+
 .event-list {
   display: grid;
   gap: 0.85rem;
@@ -464,6 +511,23 @@ img {
   .content-grid {
     grid-template-columns: minmax(0, 1.4fr) 0.75fr;
     gap: 1.75rem;
+    transition: grid-template-columns 0.3s ease;
+  }
+
+  .content-grid.events-collapsed {
+    grid-template-columns: minmax(0, 1fr) 4.5rem;
+  }
+
+  .events-collapsed .sidebar .panel {
+    padding: 0.5rem;
+  }
+
+  .events-collapsed .panel-head {
+    justify-content: center;
+  }
+
+  .events-collapsed .panel-head h3 {
+    display: none;
   }
 }
 
