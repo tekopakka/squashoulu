@@ -3,7 +3,7 @@ const translations = {
     clubName: "Squash Oulu",
     tagline: "Oulun Squash Klubi",
     navHome: "Etusivu",
-    navAbout: "Meistä",
+    navAbout: "Squash Oulussa",
     navSport: "Squash urheiluna",
     navBlog: "Blogi",
     navJuniors: "Juniorit",
@@ -15,7 +15,7 @@ const translations = {
     newsCaptionKepelit: "Legendaariset keskiviikon peli-illat jatkuvat 2.9.2026!",
     newsCaptionPerhekossi: "Perhekössi-tapahtuma järjestetään lauantaina 10.10.2026, tervetuloa mukaan!",
     newsCaptionNallisportOpen: "Nallisport Open järjestetään Oulussa 14.-15.11.2026.",
-    aboutTitle: "Meistä",
+    aboutTitle: "Squash Oulussa",
     aboutClubTitle: "Oulun Squash Klubi",
     aboutClubIntro: "Oulun Squash Klubi (OSK) on vuonna 1976 perustettu oululainen squashseura. Seura tarjoaa squash-toimintaa kaikenikäisille ja -tasoisille pelaajille - aloittelijoista aktiiviharrastajiin ja kilpapelaajiin.",
     aboutCourtsTitle: "Missä Oulussa voi pelata squashia?",
@@ -147,7 +147,7 @@ const translations = {
     clubName: "Squash Oulu",
     tagline: "Oulu Squash Club",
     navHome: "Home",
-    navAbout: "About us",
+    navAbout: "Squash in Oulu",
     navSport: "Squash as a sport",
     navBlog: "Blog",
     navJuniors: "Juniors",
@@ -159,7 +159,7 @@ const translations = {
     newsCaptionKepelit: "The legendary Wednesday game nights continue on September 2, 2026!",
     newsCaptionPerhekossi: "The Family Squash event will be held on Saturday, October 10, 2026. Welcome!",
     newsCaptionNallisportOpen: "Nallisport Open will be held in Oulu on November 14-15, 2026.",
-    aboutTitle: "About us",
+    aboutTitle: "Squash in Oulu",
     aboutClubTitle: "Oulu Squash Club",
     aboutClubIntro: "Oulu Squash Club (OSK) is a squash club based in Oulu, founded in 1976. The club offers squash activities for players of all ages and levels - from beginners to active hobby players and competitive athletes.",
     aboutCourtsTitle: "Where can you play squash in Oulu?",
@@ -340,7 +340,7 @@ const fragmentTemplates = {
 
     <nav class="navigation" id="primaryNav" aria-label="Primary">
       <a href="index.html" data-i18n="navHome">Etusivu</a>
-      <a href="about.html" data-i18n="navAbout">Meistä</a>
+      <a href="about.html" data-i18n="navAbout">Squash Oulussa</a>
       <a href="sport.html" data-i18n="navSport">Squash urheiluna</a>
       <a href="blog.html" data-i18n="navBlog">Blogi</a>
       <a href="juniors.html" data-i18n="navJuniors">Juniorit</a>
