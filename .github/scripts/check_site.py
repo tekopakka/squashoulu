@@ -9,7 +9,7 @@ BASE_URL = os.environ.get("BASE_URL", "").strip()
 
 PAGES = [
     ("index.html", "Tervetuloa Squash Ouluun"),
-    ("about.html", "Meistä"),
+    ("about.html", "Squash Oulussa"),
     ("sport.html", "Squash urheiluna"),
     ("juniors.html", "Juniorit"),
     ("contacts.html", "Yhteystiedot"),
