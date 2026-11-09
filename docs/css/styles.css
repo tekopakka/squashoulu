@@ -215,6 +215,24 @@ img {
   margin-top: 0;
 }
 
+.home-links {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+}
+
+.home-links li + li {
+  margin-top: 0.5rem;
+}
+
+.home-links a {
+  color: var(--primary-strong);
+}
+
+.home-links a:hover,
+.home-links a:focus-visible {
+  color: var(--primary);
+}
+
 .news-block {
   margin-top: 2rem;
   padding-top: 1.5rem;
