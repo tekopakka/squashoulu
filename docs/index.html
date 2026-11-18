@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Squash Oulu | Etusivu</title>
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=6" />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
 </head>
 <body data-page="index">
@@ -25,15 +25,47 @@
           <section class="news-block" aria-labelledby="news-title">
             <h2 id="news-title">Ajankohtaista</h2>
             <div class="news-image-grid">
+              <div class="news-image-card news-gallery-card">
+                <button class="news-gallery-button" type="button" id="openTournamentGallery" aria-haspopup="dialog">
+                  <span class="news-gallery-preview">
+                    <img src="assets/frontpage/psa_nallisport_2026/img1.jpeg" alt="" loading="lazy" />
+                    <img src="assets/frontpage/psa_nallisport_2026/img2.jpeg" alt="" loading="lazy" />
+                    <img src="assets/frontpage/psa_nallisport_2026/img3.jpeg" alt="" loading="lazy" />
+                    <img src="assets/frontpage/psa_nallisport_2026/img4.jpeg" alt="" loading="lazy" />
+                  </span>
+                  <span class="news-caption" data-i18n="newsTournamentGallery">PSA Nallisport 2026 – katso turnauksen kuvat</span>
+                </button>
+              </div>
               <figure class="news-image-card">
-                <img src="assets/kepelit.jpeg" alt="Kepelit" loading="lazy" />
+                <img src="assets/frontpage/kepelit.jpeg" alt="Kepelit" loading="lazy" />
                 <figcaption class="news-caption" data-i18n="newsCaptionKepelit">Legendaariset keskiviikon peli-illat jatkuvat 2.9.2026!</figcaption>
               </figure>
               <figure class="news-image-card">
-                <img src="assets/PSA_satellite.jpeg" alt="Nallisport Open" loading="lazy" />
+                <img src="assets/frontpage/PSA_satellite.jpeg" alt="Nallisport Open" loading="lazy" />
                 <figcaption class="news-caption" data-i18n="newsCaptionNallisportOpen">Nallisport Open järjestetään Oulussa 14.-15.11.2026.</figcaption>
               </figure>
             </div>
+            <dialog class="photo-dialog" id="tournamentGallery" aria-labelledby="tournamentGalleryTitle">
+              <div class="photo-dialog-header">
+                <h2 id="tournamentGalleryTitle" data-i18n="tournamentGalleryTitle">PSA Nallisport 2026</h2>
+                <button type="button" class="photo-dialog-close" id="closeTournamentGallery" data-i18n="galleryClose">Sulje</button>
+              </div>
+              <div class="photo-carousel">
+                <button type="button" class="photo-carousel-arrow" id="previousTournamentPhoto">
+                  <span aria-hidden="true">‹</span><span class="visually-hidden" data-i18n="galleryPrevious">Edellinen kuva</span>
+                </button>
+                <div class="photo-dialog-images">
+                  <img src="assets/frontpage/psa_nallisport_2026/img1.jpeg" alt="Pelaaja ja palkintojenjakaja kättelevät squashkentällä." data-i18n-alt="tournamentPhoto1" loading="lazy" />
+                  <img src="assets/frontpage/psa_nallisport_2026/img2.jpeg" alt="Sinipaitainen pelaaja ja palkintojenjakaja kättelevät." data-i18n-alt="tournamentPhoto2" loading="lazy" hidden />
+                  <img src="assets/frontpage/psa_nallisport_2026/img3.jpeg" alt="Valkopaitainen pelaaja ja palkintojenjakaja kättelevät." data-i18n-alt="tournamentPhoto3" loading="lazy" hidden />
+                  <img src="assets/frontpage/psa_nallisport_2026/img4.jpeg" alt="Kolme pelaajaa poseeraa palkintosekkien kanssa." data-i18n-alt="tournamentPhoto4" loading="lazy" hidden />
+                </div>
+                <button type="button" class="photo-carousel-arrow" id="nextTournamentPhoto">
+                  <span aria-hidden="true">›</span><span class="visually-hidden" data-i18n="galleryNext">Seuraava kuva</span>
+                </button>
+              </div>
+              <p class="photo-carousel-count" aria-live="polite" aria-atomic="true"><span data-i18n="galleryPhoto">Kuva</span> <span id="tournamentPhotoCount">1 / 4</span></p>
+            </dialog>
           </section>
         </section>
       </section>
@@ -42,6 +74,6 @@
 </main>
     <div id="siteFooter"></div>
 </div>
-  <script src="js/app.js?v=2"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

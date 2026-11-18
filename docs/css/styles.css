@@ -278,6 +278,138 @@ img {
   line-height: 1.6;
 }
 
+.news-gallery-card {
+  width: 100%;
+}
+
+.news-gallery-preview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2px;
+}
+
+.news-image-card .news-gallery-preview img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
+
+.news-gallery-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.news-gallery-button:hover .news-caption {
+  color: var(--primary-strong);
+}
+
+.news-gallery-button:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: -3px;
+}
+
+.photo-dialog {
+  width: min(900px, calc(100% - 2rem));
+  max-width: none;
+  max-height: calc(100dvh - 2rem);
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.photo-dialog::backdrop {
+  background: rgba(15, 23, 42, 0.75);
+}
+
+.photo-dialog-header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.photo-dialog-header h2 {
+  margin: 0;
+}
+
+.photo-dialog-close {
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.photo-carousel {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.photo-carousel-arrow {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.photo-carousel-arrow:hover {
+  color: var(--primary-strong);
+  border-color: var(--primary);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.photo-dialog-images img {
+  width: 100%;
+  height: min(65dvh, 700px);
+  object-fit: contain;
+}
+
+.photo-dialog-images img[hidden] {
+  display: none;
+}
+
+.photo-carousel-count {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  text-align: center;
+}
+
 .gallery-table {
   width: 100%;
   border-collapse: collapse;
@@ -554,6 +686,32 @@ img {
 @media (max-width: 720px) {
   .news-image-grid {
     grid-template-columns: 1fr;
+  }
+
+  .photo-carousel {
+    position: relative;
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .photo-carousel-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  #previousTournamentPhoto {
+    left: 0.75rem;
+  }
+
+  #nextTournamentPhoto {
+    right: 0.75rem;
+  }
+
+  .photo-dialog-images img {
+    height: min(70dvh, 700px);
   }
 
   .menu-toggle {

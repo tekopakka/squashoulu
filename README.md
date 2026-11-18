@@ -42,3 +42,6 @@ Sivusto on staattinen HTML/CSS/JS-projekti, joten sitä ei tarvitse buildata.
 - Tapahtumat ladataan tiedostosta `docs/data/events.json`, joten sivustoa kannattaa ajaa HTTP-palvelimen kautta.
 - Pelkkä tiedoston avaaminen suoraan levyltä (`file://`) voi estää osan toiminnoista selaimen suojausten takia.
 
+## Turnauskuvien lisääminen
+
+Etusivun PSA Nallisport 2026 -kuvakortti näyttää neljän kuvan esikatselun ja avaa kuvat karusellissa. Kuvia selataan nuolipainikkeilla tai näppäimistön vasemmalla ja oikealla nuolinäppäimellä. Lisää uudet kuvat kansioon `docs/assets/frontpage/psa_nallisport_2026/` ja lisää niitä vastaavat `<img>`-elementit tiedoston `docs/index.html` `photo-dialog-images`-osioon. Lisää kuville kuvailevat `alt`-tekstit sekä niiden englanninkieliset käännökset tiedostoon `docs/js/app.js` muiden turnauskuvien tapaan. Kuvat näkyvät karusellissa samassa järjestyksessä kuin ne on lueteltu HTML:ssä. Esikatselun kuvia voi vaihtaa saman tiedoston `news-gallery-preview`-osiossa.

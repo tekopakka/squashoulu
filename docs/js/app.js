@@ -19,6 +19,16 @@ const translations = {
     newsCaptionKepelit: "Legendaariset keskiviikon peli-illat jatkuvat 2.9.2026!",
     newsCaptionPerhekossi: "Perhekössi-tapahtuma järjestetään lauantaina 10.10.2026, tervetuloa mukaan!",
     newsCaptionNallisportOpen: "Nallisport Open järjestetään Oulussa 14.-15.11.2026.",
+    newsTournamentGallery: "PSA Nallisport 2026 – katso turnauksen kuvat",
+    tournamentGalleryTitle: "PSA Nallisport 2026",
+    galleryClose: "Sulje",
+    galleryPrevious: "Edellinen kuva",
+    galleryNext: "Seuraava kuva",
+    galleryPhoto: "Kuva",
+    tournamentPhoto1: "Pelaaja ja palkintojenjakaja kättelevät squashkentällä.",
+    tournamentPhoto2: "Sinipaitainen pelaaja ja palkintojenjakaja kättelevät.",
+    tournamentPhoto3: "Valkopaitainen pelaaja ja palkintojenjakaja kättelevät.",
+    tournamentPhoto4: "Kolme pelaajaa poseeraa palkintosekkien kanssa.",
     aboutTitle: "Squash Oulussa",
     aboutClubTitle: "Oulun Squash Klubi",
     aboutClubIntro: "Oulun Squash Klubi (OSK) on vuonna 1976 perustettu oululainen squashseura. Seura tarjoaa squash-toimintaa kaikenikäisille ja -tasoisille pelaajille - aloittelijoista aktiiviharrastajiin ja kilpapelaajiin.",
@@ -167,6 +177,16 @@ const translations = {
     newsCaptionKepelit: "The legendary Wednesday game nights continue on September 2, 2026!",
     newsCaptionPerhekossi: "The Family Squash event will be held on Saturday, October 10, 2026. Welcome!",
     newsCaptionNallisportOpen: "Nallisport Open will be held in Oulu on November 14-15, 2026.",
+    newsTournamentGallery: "PSA Nallisport 2026 – view tournament photos",
+    tournamentGalleryTitle: "PSA Nallisport 2026",
+    galleryClose: "Close",
+    galleryPrevious: "Previous photo",
+    galleryNext: "Next photo",
+    galleryPhoto: "Photo",
+    tournamentPhoto1: "A player and a presenter shake hands on the squash court.",
+    tournamentPhoto2: "A player in a blue shirt shakes hands with a presenter.",
+    tournamentPhoto3: "A player in a white shirt shakes hands with a presenter.",
+    tournamentPhoto4: "Three players pose with their prize cheques.",
     aboutTitle: "Squash in Oulu",
     aboutClubTitle: "Oulu Squash Club",
     aboutClubIntro: "Oulu Squash Club (OSK) is a squash club based in Oulu, founded in 1976. The club offers squash activities for players of all ages and levels - from beginners to active hobby players and competitive athletes.",
@@ -304,11 +324,11 @@ const translations = {
 let currentLanguage = localStorage.getItem("squashoulu-lang") || "fi";
 
 const sponsors = [
-  { href: "https://www.aleniuksenpuutarha.fi/", src: "../assets/alenius-1.png", alt: "Aleniuksen Puutarha" },
-  { href: "https://digizer.fi/", src: "../assets/digizer.png", alt: "Digizer" },
-  { href: "https://www.hukka.net/", src: "../assets/hukka.jpg", alt: "Hukka" },
-  { href: "https://nallisport.com/", src: "../assets/nallisport.jpg", alt: "Nallisport" },
-  { href: "https://www.snower.fi/", src: "../assets/snower.jpg", alt: "Snower" },
+  { href: "https://www.aleniuksenpuutarha.fi/", src: "assets/sponsors/alenius-1.png", alt: "Aleniuksen Puutarha" },
+  { href: "https://digizer.fi/", src: "assets/sponsors/digizer.png", alt: "Digizer" },
+  { href: "https://www.hukka.net/", src: "assets/sponsors/hukka.jpg", alt: "Hukka" },
+  { href: "https://nallisport.com/", src: "assets/sponsors/nallisport.jpg", alt: "Nallisport" },
+  { href: "https://www.snower.fi/", src: "assets/sponsors/snower.jpg", alt: "Snower" },
 ];
 
 function renderSponsors() {
@@ -443,6 +463,11 @@ function setLanguage(lang) {
     }
   });
 
+  document.querySelectorAll("[data-i18n-alt]").forEach((element) => {
+    const value = localized[element.dataset.i18nAlt];
+    if (value) element.setAttribute("alt", value);
+  });
+
   const langSwitchBtn = document.getElementById("langSwitch");
   if (langSwitchBtn) {
     langSwitchBtn.textContent = lang === "fi" ? "EN" : "FI";
@@ -536,7 +561,59 @@ function initMobileNavigation() {
   });
 }
 
+function initTournamentGallery() {
+  const dialog = document.getElementById("tournamentGallery");
+  const openButton = document.getElementById("openTournamentGallery");
+  const closeButton = document.getElementById("closeTournamentGallery");
+  const previousButton = document.getElementById("previousTournamentPhoto");
+  const nextButton = document.getElementById("nextTournamentPhoto");
+  const count = document.getElementById("tournamentPhotoCount");
+  if (!dialog || !openButton || !closeButton || !previousButton || !nextButton || !count) return;
+
+  const images = Array.from(dialog.querySelectorAll(".photo-dialog-images img"));
+  if (images.length === 0) {
+    console.error("Tournament gallery has no images.");
+    return;
+  }
+  let currentPhoto = 0;
+
+  function showPhoto(index) {
+    currentPhoto = (index + images.length) % images.length;
+    images.forEach((image, imageIndex) => {
+      image.hidden = imageIndex !== currentPhoto;
+    });
+    count.textContent = `${currentPhoto + 1} / ${images.length}`;
+  }
+
+  showPhoto(0);
+  openButton.addEventListener("click", () => {
+    showPhoto(0);
+    dialog.showModal();
+  });
+  closeButton.addEventListener("click", () => dialog.close());
+  previousButton.addEventListener("click", () => showPhoto(currentPhoto - 1));
+  nextButton.addEventListener("click", () => showPhoto(currentPhoto + 1));
+  dialog.addEventListener("click", (event) => {
+    const bounds = dialog.getBoundingClientRect();
+    if (event.target === dialog &&
+        (event.clientX < bounds.left || event.clientX > bounds.right ||
+         event.clientY < bounds.top || event.clientY > bounds.bottom)) {
+      dialog.close();
+    }
+  });
+  dialog.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      event.preventDefault();
+      dialog.close();
+    } else if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      event.preventDefault();
+      showPhoto(currentPhoto + (event.key === "ArrowLeft" ? -1 : 1));
+    }
+  });
+}
+
 async function initPage() {
+  initTournamentGallery();
   await Promise.all([
     loadFragment("siteHeader", "includes/header.html"),
     loadFragment("siteEvents", "includes/events.html"),
